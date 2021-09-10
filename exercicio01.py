@@ -1,0 +1,6 @@
+nome = str(input("digite seu nome: "))
+dolar = float(input("qual foi o valor pago em dolar? US$"))
+real = (dolar*5.40)
+lucrofinal = (real*20/100+real)
+lucro = (real*20/100)
+print("{}, o valor, em reias, do seu produto é: R${:.2f}. \n Com o acréscimo de 20%  o valor final será R${:.2f} \n Parabéns você obteve um lucro de R${:.2f}".format(nome, real, lucrofinal, lucro))
